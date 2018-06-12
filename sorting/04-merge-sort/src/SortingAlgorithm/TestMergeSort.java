@@ -13,5 +13,6 @@ public class TestMergeSort {
         MergeSort.sort(test);
         Assert.assertTrue(SortTestHelper.isSorted(test));
         SortTestHelper.printArray(test);
+        SortTestHelper.testSort("SortingAlgorithm.MergeSort", test);
     }
 }
